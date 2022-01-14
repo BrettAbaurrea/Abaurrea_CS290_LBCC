@@ -7,3 +7,7 @@ After recieving the notice you can join the app "Last Friends" which pairs you u
 This webpage will have users users be able to find out if they are dying (entering their name, and the website randomly decides if the user is dying (I'm not sure if this is possible in html/css but I want to do a sort of random number generator deal where even = living odd = dying))
 On the homepage I might also include a table that says everyone else who is dying today
 Users can then go to the last friend app (seperate page (I'm not sure if we are learning how to go to multiple pages in this class, so I might just have it be something you scroll too) 
+
+I want to give off a "buzzfeed" vibe. 
+kinda outlandish, kinda camp, really tacky and kinda horrible. 
+Seems like it should be satire but is unfortunately real
