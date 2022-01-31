@@ -37,60 +37,79 @@
                 padding: 5px;
                 margin: 5px;
                 margin-top: 25px;
+                position: center;
+            }
+            .sticky-position-top{
+                position: sticky;
+                top: 0px;
+            }
+            a:hover{
+                color: red;
+            }
+            h1{
+                text-align: center;
+            }
+            h2{
+                text-align: center;
             }
         </style>
     </head>
     <!--Contents of the actual page-->
     <body>
         <a id="top" href="#bottom">to bottom of page</a>
-        <h1 style="text-align:center">Welcome to Death-Cast.com</h1>
-        <h2 style="text-align:center">Do you die today? &#128565; <br>We are so sorry to lose you...</h2>
+        <h1>Welcome to Death-Cast.com</h1>
+        <h2>Do you die today? &#128565;</h2>
+        <h2 class="sticky-position-top">We are so sorry to lose you...</h2> <!--This adds an eerie feeling that's with the "this can't be real..." garbage-->
+
         
         <!--Ordered List-->
         <p><b>Top Celebrities Dying TODAY!</b></p>
         <ol>
             <li>Howie Maldonado (Actor)</li>    <!--Real character from the book-->
-            <li>Marisa Wood (Actress)</li>
-            <li>Alexis Texas (Pop-Singer)</li>
-            <li>Frankie Rider (Rapper)</li>
+            <li>Moira Rose (Actress)</li>
+            <li>Alexis Texas (Popstar)</li>
+            <li>Anthony Stark (Philanthropist)</li>
             <li>Delilah Gray (Journalist)</li>  <!--Real Character from the book-->
         </ol>
         <!--Unordered List-->
-        <p><b><i>Normal</i> People Dying TODAY!</b></p>
-        <ul>
-            <li>Emma Nelson-Mason (15)</li>
-            <li>Rufus Emeterio (17)</li>    <!--main character from the book-->
-            <li>Mateo Torrez (18)</li>  <!--main character from the book-->
-            <li>Lexie Grey (28)</li>
-            <li>Vin Pierce (47)</li>    <!--Real character from the book-->
-        </ul>
+        <div>
+            <p><b><i>Normal</i> People Dying TODAY!</b></p>
+            <ul>
+                <li>Emma Nelson-Mason (15)</li>
+                <li>Rufus Emeterio (17)</li>    <!--main character from the book-->
+                <li>Mateo Torrez (18)</li>  <!--main character from the book-->
+                <li>Lexie Grey (28)</li>
+                <li>Vin Pierce (47)</li>    <!--Real character from the book-->
+            </ul>
+        </div>
         
         <!--Countdowners is a website full of livestreams of deckers doing crazy things on their last day alive-->
-        <h3 style=text-align:center>TOP LIVE VIDEOS ON COUNTDOWNERS!!</h3>
-
-        <!--Using a table as a way to have captions under each video (and have the videos in line horizontally)-->
-        <table class="center;">  <!--copied from: https://www.w3schools.com/howto/howto_css_table_center.asp-->
-            <tr>
-                <!--Sky diving video-->
-                <td>
-                    <iframe width="425" height="250" src="https://www.youtube.com/embed/ofLQA6Pn3xA?start=58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <figcaption style="font-size: medium;"><b>&nbsp;&nbsp;&nbsp;&nbsp;Florida Man Jumps out of Plane Midflight</b> &#128561;</figcaption>
-                </td>
-                <!--Scuba diving video-->
-                <td>
-                    <iframe float="center" width="425" height="250" src="https://www.youtube.com/embed/m8NgpKMZh_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <figcaption style="font-size: meduim;"><b>&nbsp;&nbsp;&nbsp;&nbsp;emotional last scuba dive... (We Cried!)</b> &#128557;&#128557;</figcaption>
-                </td>
-                <!--Mountain Biking Video-->
-                <td>
-                    <iframe width="425" height="250" src="https://www.youtube.com/embed/nfM9HGgQ4rs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <figcaption style="font-size: meduim;"><b>&nbsp;&nbsp;&nbsp;&nbsp;The BEST Trail for your Last Mountain Bike Ride</b> &#128693;</figcaption>
-                </td>
-            </tr>
-        </table>
+        <div>   <!--Making this a div so all CountDowners content are group togeter.-->
+            <h3 style=text-align:center>TOP LIVE VIDEOS ON COUNTDOWNERS!!</h3>
+            <!--Using a table as a way to have captions under each video (and have the videos in line horizontally)-->
+            <table>
+                <tr>
+                    <!--Sky diving video-->
+                    <td>
+                        <iframe width="425" height="250" src="https://www.youtube.com/embed/ofLQA6Pn3xA?start=58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <figcaption style="font-size: medium;"><b>&nbsp;&nbsp;&nbsp;&nbsp;Florida Man Jumps out of Plane Midflight</b> &#128561;</figcaption>
+                    </td>
+                    <!--Scuba diving video-->
+                    <td>
+                        <iframe float="center" width="425" height="250" src="https://www.youtube.com/embed/m8NgpKMZh_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <figcaption style="font-size: meduim;"><b>&nbsp;&nbsp;&nbsp;&nbsp;emotional last scuba dive... (We Cried!)</b> &#128557;&#128557;</figcaption>
+                    </td>
+                    <!--Mountain Biking Video-->
+                    <td>
+                        <iframe width="425" height="250" src="https://www.youtube.com/embed/nfM9HGgQ4rs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <figcaption style="font-size: meduim;"><b>&nbsp;&nbsp;&nbsp;&nbsp;The BEST Trail for your Last Mountain Bike Ride</b> &#128693;</figcaption>
+                    </td>
+                </tr>
+            </table>
+        </div>
         <h3 style=text-align:center>TOP IMAGES ON COUNTDOWNERS TODAY!</h3>
         <!--Using a table as a way to have captions under each image (and have the images in line horizontally)-->
-        <table class="center" style="background-color: rgb(27, 88, 255);">
+        <table style="background-color: rgb(27, 88, 255);">
             <tr>
                 <!--Last Supper Photo-->
                 <td>
