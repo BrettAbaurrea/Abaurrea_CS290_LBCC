@@ -26,8 +26,11 @@ homepage-->
         .sticky-position-top{
             position: sticky;
             top: 0px;
+        }
+        h2{
             text-align: center;
         }
+        /*"buttons" to get to the actual Last Friend App*/
         div{
             width: 250px;
             height: 35px;
@@ -41,14 +44,21 @@ homepage-->
             vertical-align: middle;
             line-height: 40px; 
         }
+        a:link{
+            background-color: transparent;
+            text-decoration: none;  /*Removes underline*/
+        }
+        a:hover{
+            color: black;
+        }
     </style>
     <!--Contents of actual Website-->
     <body>
         <a id="top" href="deathCastHomePage.html">home</a>
         <h1>Last Friend &hearts;</h1>
-        <h2 class="sticky-position-top" style=>We are so sorry to lose you...</h2>  <!--This is in an ugly position, figure out how to move it up more-->
+        <h2 class="sticky-position-top" style="font-family: optima">We are so sorry to lose you...</h2>  <!--This is in an ugly position, figure out how to move it up more-->
 
-        <div>I AM A DECKER</div>
-        <div>I AM NOT A DECKER</div>
+        <div><a href="deckerLastFriend.html">I AM A DECKER</a></div>
+        <div><a href="nonDeckerLastFriend.html">I AM NOT A DECKER</a></div>
     </body>
 </html>
