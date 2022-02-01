@@ -1,4 +1,8 @@
 <!--This is nearly identical to nonDeckerLastFriend.html-->
+<!--
+    My goal is to have this looking similar to a 
+    dating app/site.
+-->
 
 <!DOCTYPE html>
 
@@ -9,7 +13,65 @@
         <meta name="author" content="Brett T. Abaurrea">
         <title>Last Friend Form: DECKER</title>
     </head>
+    <style>
+        /*Basics from every page*/
+        *{
+            background-color: black;
+            color: white;
+        }
+        .sticky-position-top{
+            position: sticky;
+            top: 0px;
+        }
+        h1{
+            text-align: center;
+            font-style: italic;
+            font-family: cursive;
+            font-size: 50pt;
+            margin: 0;
+        }
+        h2{
+            text-align: center;
+        }
+        /*Nav Bar*/
+        body{
+            margin: 8px;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 100px;
+            background-color: rgb(0, 0, 0);
+            position: sticky;
+            height: 30%;
+            overflow: auto;
+        }
+        li a{
+            display: block;
+            color: white;
+            /*(first # is top/bottom)*/
+            padding: 15px 2px;  /*how far into the nav bar they are*/
+            text-decoration: none;
+            text-align: center;
+        }
+        li a.active{
+            background-color: rgb(63, 63, 63);
+            color: silver;
+        }
+        li a:hover:not(.active){
+            background-color: #550303;
+            color: silver;
+        }
+    </style>
     <body>
-        <h1>UNDER CONSTRUCTION</h1>
+        <h1>Last Friend &hearts;<br></h1>
+        <h2>WELCOME DECKERS</h2>
+        <h2 class="sticky-position-top">We are so sorry to lose you...</h2> <!--This adds an eerie feeling that's with the "this can't be real..." garbage-->
+        <ul>
+            <li><a href="deathCastHomePage.html">Home</a></li>
+            <li><a href="#About Us">About</a></li>
+            <li><a href="#Necro App">Necro App</a></li>
+        </ul>
     </body>
 </html>
