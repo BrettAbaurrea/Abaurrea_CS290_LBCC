@@ -30,6 +30,7 @@
             font-family: cursive;
             font-size: 50pt;
             margin: 0;
+            margin-top: 30px;
         }
         h2{
             text-align: center;
@@ -44,35 +45,30 @@
         /*This may be fixed though with making the 
         "form"/table bigger*/
         body{
-            margin: 8px;
+            margin: 4px;
         }
-        ul{
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            width: 100px;
-            background-color: rgb(0, 0, 0);
-            position: sticky;
-            height: 30%;
-            overflow: auto;
+
+        ul {
+        list-style-type: none;
+        top: 0;
+        padding: 0;
+        background-color: #550303;
+        position: fixed;
+        overflow: auto;
         }
-        li a{
-            display: block;
-            color: white;
-            /*(first # is top/bottom)*/
-            padding: 10px 2px;  /*how far into the nav bar they are*/
-            text-decoration: none;
-            text-align: center;
-            border-radius: 10px;
+
+        li a {
+        display: block;
+        color: grey;
+        padding: 4px 13px;
+        text-decoration: none;
         }
-        li a.active{
-            background-color: rgb(63, 63, 63);
-            color: silver;
+
+        li a:hover:not(.active) {
+        background-color: #550303;
+        color: black;
         }
-        li a:hover:not(.active){
-            background-color: #550303;
-            color: silver;
-        }
+
         /*Tables*/
         table, th, td{
             border-collapse: collapse;
