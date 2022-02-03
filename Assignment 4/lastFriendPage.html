@@ -1,0 +1,96 @@
+<!--Last Friend Page
+This can be accessed
+through the death-cast
+homepage-->
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="They Both Die in the End based buzzfeed parody site Last Friend 'app' page">
+        <meta name="author" content="Brett T. Abaurrea">
+        <title>The Last Friend App</title>
+    </head>
+    <style>
+       *{
+            background: black;
+            color: white;
+        }
+        h1{
+            text-align: center;
+            font-style: italic;
+            font-family: cursive;
+            font-size: 72pt;
+        }
+        .sticky-position-top{
+            position: sticky;
+            top: 0px;
+        }
+        h2{
+            text-align: center;
+        }
+        /*Nav Bar*/
+        body{
+            margin: 4px;
+        }
+
+        ul {
+            list-style-type: none;
+            top: 0;
+            padding: 0;
+            background-color: #550303;
+            position: fixed;
+            overflow: auto;
+        }
+
+        li a {
+            display: block;
+            color: grey;
+            padding: 4px 13px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #550303;
+            color: black;
+        }
+        /*"buttons" to get to the actual Last Friend App*/
+        div{
+            width: 250px;
+            height: 35px;
+            background: #550303;
+            margin: 25px auto;
+            text-align: center;
+            border: 1px solid white;
+            border-radius: 20px;
+            font: 20px bold;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 40px; 
+        }
+        a:link{
+            background-color: transparent;
+            text-decoration: none;  /*Removes underline*/
+        }
+        a:hover{
+            color: black;
+        }
+    </style>
+    <!--Contents of actual Website-->
+    <body>
+        <h1>Last Friend &hearts;</h1>
+        <h2 class="sticky-position-top" style="font-family: optima">We are so sorry to lose you...</h2>  <!--This is in an ugly position, figure out how to move it up more-->
+        <!--Nav Bar-->
+        <ul>
+            <li><a href="deathCastJavaScript.html">Home</a></li>
+            <li><a href="#About Us">About</a></li>
+            <li><a href="lastFriendPage.html">Last Friend App</a></li>
+            <li><a href="Count Downers">Count Downers</a></li>
+            <li><a href="News">News</a></li>
+            <li><a href="#Necro App">Necro App</a></li>
+        </ul>
+        <div><a href="deckerLastFriend.html">I AM A DECKER</a></div>
+        <div><a href="nonDeckerLastFriend.html">I AM NOT A DECKER</a></div>
+    </body>
+</html>

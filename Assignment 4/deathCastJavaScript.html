@@ -1,6 +1,7 @@
 <!--This is essentially the same page as assignment 2 but
 with javascript elements in it and more sophisticated CSS-->
 
+
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
@@ -10,20 +11,60 @@ with javascript elements in it and more sophisticated CSS-->
         <title>Welcome to Death-Cast.com</title>
     </head>
     <style>
+        /*#550303 basic red*/
         *{
             background-color: black;
             color: white;
             font-family: optima;
+        }
+        h1, h2{
+            text-align: center;
         }
         /*Permanantly affix "we're sorry to lose you" to the top*/
         .sticky-position-top{
             position: sticky;
             top: 0px;
         }
+        /*Nav Bar*/
+        body{
+            margin: 4px;
+        }
+
+        ul {
+        list-style-type: none;
+        top: 0;
+        padding: 0;
+        background-color: #550303;
+        position: fixed;
+        overflow: auto;
+        }
+
+        li a {
+        display: block;
+        color: grey;
+        padding: 4px 13px;
+        text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+        background-color: #550303;
+        color: black;
+        }
     </style>
     <body>
-        <a id="top" href="#bottom">To Bottom of Page</a>
         <h1>Welcome to Death-Cast.com</h1>
         <h2 class="stick-position-top">We are so sorry to lose you...</h2>
+        <!--Nav Bar-->
+        <ul>
+            <li><a href="deathCastJavaScript.html">Home</a></li>
+            <li><a href="#About Us">About</a></li>
+            <li><a href="lastFriendPage.html">Last Friend App</a></li>
+            <li><a href="Count Downers">Count Downers</a></li>
+            <li><a href="News">News</a></li>
+            <li><a href="#Necro App">Necro App</a></li>
+        </ul>
+        <h2><br>See who else got the call!</h2>
+        <!--Javascript for a text bar for users to enter their name-->
+        
     </body>
 </html>

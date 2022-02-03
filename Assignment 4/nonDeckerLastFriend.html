@@ -1,0 +1,181 @@
+<!--This is nearly identical to nonDeckerLastFriend.html-->
+<!--
+    My goal is to have this looking similar to a 
+    dating app/site.
+    #550303 basic red
+-->
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="They Both Die in the End based buzzfeed parody site Last Friend 'app' page">
+        <meta name="author" content="Brett T. Abaurrea">
+        <title>Last Friend Form: DECKER</title>
+    </head>
+    <style>
+        /*Basics from every page*/
+        *{
+            background-color: black;
+            color: white;
+        }
+        .sticky-position-top{
+            position: sticky;
+            top: 0px;
+        }
+        h1{
+            text-align: center;
+            font-style: italic;
+            font-family: cursive;
+            font-size: 50pt;
+            margin: 0;
+            margin-top: 30px;
+        }
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align:center;
+        }
+        /*Nav Bar*/
+        /*Change Nav Bar to horizontal ?????? since
+        page is so centered heavy, vertical the 
+        left looks kinda weird and out of place*/
+        /*This may be fixed though with making the 
+        "form"/table bigger*/
+        body{
+            margin: 4px;
+        }
+
+        ul {
+        list-style-type: none;
+        top: 0;
+        padding: 0;
+        background-color: #550303;
+        position: fixed;
+        overflow: auto;
+        }
+
+        li a {
+        display: block;
+        color: grey;
+        padding: 4px 13px;
+        text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+        background-color: #550303;
+        color: black;
+        }
+
+        /*Tables*/
+        table, th, td{
+            border-collapse: collapse;
+            border: center;
+            border: 5px solid black;
+            margin: auto;
+            background-color: #550303;
+            width: 75%;
+            padding: 7px;
+            table-layout: fixed;
+
+        }
+        .permText{  /*Left side of table*/
+            color: black;
+            font-weight: bold;
+        }
+        .tempText{  /*Right side of table, This is where users will input their info*/
+            color: grey;
+            text-align: center;
+        }
+        /*When Shrink between 800-1000px turn Red*/
+        /*Almost a "blink and you miss it sort of thing"*/
+        @media only screen and (min-width: 1200px) {
+            *{
+                background-color:black;
+            }
+        }
+        @media only screen and (min-width:800px) and (max-width: 1000px) {
+            body {
+                background-color:#550303;
+            }
+        }
+        @media only screen and (max-width: 800px) {
+            body {
+                background-color:black;
+            }
+        }
+
+    </style>
+    <body>
+        <h1>Last Friend &hearts;<br></h1>
+        <h2 class="sticky-position-top">We are so sorry to lose you...</h2> <!--This adds an eerie feeling that's with the "this can't be real..." garbage-->
+        <h2>WELCOME NON-DECKERS</h2>
+        <ul>
+            <li><a href="deathCastJavaScript.html">Home</a></li>
+            <li><a href="#About Us">About</a></li>
+            <li><a href="lastFriendPage.html">Last Friend App</a></li>
+            <li><a href="Count Downers">Count Downers</a></li>
+            <li><a href="News">News</a></li>
+            <li><a href="#Necro App">Necro App</a></li>
+        </ul>
+        <!--Form for the Last Friend App
+        This is just an example and later I will add in user accesibility-->
+        <table>
+            <tr>
+                <td class="permText">NAME: </td>
+                <td class="tempText">*example text*</td>
+            </tr>
+            <tr>
+                <td class="permText">AGE: </td>
+                <td class="tempText">*example text*</td>
+            </tr>
+            <tr>
+                <td class="permText">GENDER: </td>
+                <td class="tempText">*example text*</td>
+            </tr>
+            <tr>
+                <td class="permText">HEIGHT: </td>
+                <td class="tempText">*example text*</td>
+            </tr>
+            <tr>
+                <td class="permText">WEIGHT: </td>
+                <td class="tempText">*example text*</td>
+            </tr>
+            <tr>
+                <td class="permText">ETHNICITY: </td>
+                <td class="tempText">example text*</td>
+            </tr>
+            <tr>
+                <td class="permText">ORIENTATION: </td>
+                <td class="tempText">*example text*</td>
+            </tr>
+            <tr>
+                <td class="permText">JOB: </td>
+                <td class="tempText">*example text*</td>
+            </tr>
+            <tr>
+                <td class="permText">INTERESTS: </td>
+                <td class="tempText">*example text*</td>
+            </tr>
+            <tr>
+                <td class="permText">FAVORITE
+                    MOVIE/BOOK/TV SHOW: </td>
+                <td class="tempText">*example text*</td>
+            </tr>
+            <tr>
+                <td class="permText">WHAT CAN YOU PROVIDE
+                    A DECKER?</td>
+                <td class="tempText">*example text*</td>
+            </tr>
+            <tr>
+                <td class="permText">DO YOU UNDERSTAND DECKERS
+                    HAVE LESS THAN 24 HOURS TO LIVE?</td>
+                <td class="tempText">*example text*</td>
+            </tr>
+        </table>
+        </p>
+
+    </body>
+</html>
