@@ -12,6 +12,18 @@ with javascript elements in it and more sophisticated CSS-->
         <link rel="stylesheet" href="basicStyleDeathCast.css"> <!--CSS Style Sheet-->
     </head>
     <style>/*This is now a linked seperate thing*/</style>
+    <script>
+        //Ask user if they are just vistining Death-Cast.com (or if they are looking to register for Last Friend)
+        let justBrowsing = window.confirm("Just Browsing? (Click OK)");
+        if (justBrowsing != true){
+            console.log("Redirecting to Last Friend App...");
+            window.alert("Redirecting to last Friend App...");
+            window.location.href="lastFriendPage.html";
+        }
+        else{
+            console.log("Death-Cast Homepage for all");
+        }
+    </script>
     <body>
         <h1>Welcome to Death-Cast.com</h1>
         <h2 class="stick-position-top">We are so sorry to lose you...</h2>
