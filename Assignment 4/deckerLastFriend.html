@@ -15,6 +15,7 @@
         <title>Last Friend Form: DECKER</title>
         <link rel="stylesheet" href="basicStyleDeathCast.css"> <!--CSS Style Sheet-->
     </head>
+    <!--Possibly move this to its own CSS file for Last Friend App-->
     <style>
         /*Tables*/
         table, th, td{
@@ -66,64 +67,66 @@
             <li><a href="lastFriendPage.html">Last Friend App</a></li>
             <li><a href="Count Downers">Count Downers</a></li>
             <li><a href="News">News</a></li>
-            <li><a href="#Necro App">Necro App</a></li>
+            <li><a href="necroApp.html">Necro App</a></li>
         </ul>
         <!--Form for the Last Friend App
         This is just an example and later I will add in user accesibility-->
         <table>
             <tr>
-                <td class="permText">NAME: </td>
-                <td class="tempText">*example text*</td>
+                <td class="permText"><button id="name">NAME</button></td>
+                <td><span id="outputName" class="tempText"></span></td>
             </tr>
             <tr>
-                <td class="permText">AGE: </td>
-                <td class="tempText">*example text*</td>
+                <td class="permText"><button id="age">AGE</button></td>
+                <td><span id="outputAge" class="tempText"></span></td>
             </tr>
             <tr>
-                <td class="permText">GENDER: </td>
-                <td class="tempText">*example text*</td>
+                <td class="permText"><button id="gender">GENDER</button></td>
+                <td><span id="outputGender" class="tempText"></span></td>
             </tr>
             <tr>
-                <td class="permText">HEIGHT: </td>
-                <td class="tempText">*example text*</td>
+                <td class="permText"><button id="height">HEIGHT</button></td>
+                <td><span id="outputHeight" class="tempText"></span></td>
             </tr>
             <tr>
-                <td class="permText">WEIGHT: </td>
-                <td class="tempText">*example text*</td>
+                <td class="permText"><button id="weight">WEIGHT</button></td>
+                <td><span id="outputWeight" class="tempText"></span></td>
             </tr>
             <tr>
-                <td class="permText">ETHNICITY: </td>
-                <td class="tempText">example text*</td>
+                <td class="permText"><button id="ethnicity">ETHNICITY</button></td>
+                <td><span id="outputEthnicity" class="tempText"></span></td>
             </tr>
             <tr>
-                <td class="permText">ORIENTATION: </td>
-                <td class="tempText">*example text*</td>
+                <td class="permText"><button id="orientation">SEXUAL ORIENTATION</button></td>
+                <td><span id="outputSexualOrientation" class="tempText"></span></td>
             </tr>
             <tr>
-                <td class="permText">JOB: </td>
-                <td class="tempText">*example text*</td>
+                <td class="permText"><button id="job">JOB</button></td>
+                <td><span id="outputJob" class="tempText"></span></td>
             </tr>
             <tr>
-                <td class="permText">INTERESTS: </td>
-                <td class="tempText">*example text*</td>
+                <td class="permText"><button id="interests">INTERESTS</button></td>
+                <td><span id="outputInterests" class="tempText"></span></td>
             </tr>
             <tr>
-                <td class="permText">FAVORITE <br>MOVIE/BOOK/TV SHOW: </td>
-                <td class="tempText">*example text*</td>
+                <td class="permText"><button id="favorite">FAVORITE SHOW/BOOK/MOVIE</button></td>
+                <td><span id="outputFavorite" class="tempText"></span></td>
             </tr>
             <tr>
-                <td class="permText">WHO WERE YOU <br>IN YOUR LIFE: </td>
-                <td class="tempText">example text*</td>
+                <td class="permText"><button id="past">WHO WERE YOU IN YOUR LIFE:</button></td>
+                <td span id="outputPast" class="tempText"></span></td>
             </tr>
             <tr>
-                <td class="permText">BUCKET LIST: </td>
-                <td class="tempText">*example text*</td>
+                <td class="permText"><button id="bucket">BUCKET LIST: </button></td>
+                <td span id="outputBucket" class="tempText"></td>span</td>
             </tr>
             <tr>
-                <td class="permText">FINAL THOUGHTS: </td>
-                <td class="tempText">*example text*</td>
+                <td class="permText"><button id="final">FINAL THOUGHTS: </button></td>
+                <td span id="outputFinal" class="tempText"></span></td>
             </tr>
         </table>
 
     </body>
+    <!--JavaScript for Last Friend Form-->
+    <script src="scripts/deckerScript.js"></script>
 </html>
