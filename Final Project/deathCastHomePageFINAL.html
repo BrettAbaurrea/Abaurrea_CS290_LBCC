@@ -6,8 +6,9 @@
         <meta name="author" content="Brett T. Abaurrea">
         <title>Welcome to Death-Cast.com</title>
         <link rel="stylesheet" href="style/basicStyleDeathCast.css">    <!--Default page style-->
-        <link rel="stylesheet" href="style/homePageStyle.css">
-        <script src="script/homePageScript.js"></script>
+        <link rel="stylesheet" href="style/homePageStyle.css">          <!--specific page style-->
+        <script src="script/homePageScript.js"></script>                <!--specific page script-->
+        <script src="script/randomNumberGenerator.js"></script>         <!--script to find a random number and "decide" if someone dies that day-->
     </head>
     <body>
         <h1>Welcome to Death-Cast.com</h1>
@@ -18,10 +19,10 @@
             <li><a href="deathCastAboutFINAL.html">About Us</a></li>
             <li><a href="lastFriendPageFINAL.html">Last Friend App</a></li>
         </ul>
-        <form action="/action_page.php">
-            <input type="text" id="nameCheck" name="nameCheck" value="Enter Name Here.........." class="textBox"><br>
-            <label for="nameCheck">Who Else Got The Call.........................................?&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</tab></label>
-            <input type="submit" value="Check" class="submitBox">
-          </form> 
+        <form name="Who Dies">
+            <input id="outputName" type="text" id="nameCheck" name="nameCheck" value="Enter Name Here.........." class="textBox"><br>
+            <label for="nameCheck">Who Else Got The Call..........................................................?&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</tab></label>
+            <input type="button" id="submit" value="Check" class="submitBox" onclick="Random();">
+          </form>
     </body>
 </html>
