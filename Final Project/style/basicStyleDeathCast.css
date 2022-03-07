@@ -1,0 +1,41 @@
+/*Basic style that is consistently used throughout the pages*/
+
+ /*#550303 basic red*/
+ *{
+    background-color: black;
+    color: white;
+    font-family: optima;
+}
+h1, h2{
+    text-align: center;
+}
+/*Permanantly affix "we're sorry to lose you" to the top*/
+.sticky-position-top{
+    position: sticky;
+    top: 0px;
+}
+/*Nav Bar*/
+body{
+    margin: 4px;
+}
+
+ul {
+list-style-type: none;
+top: 0;
+padding: 0;
+background-color: #550303;
+position: fixed;
+overflow: auto;
+}
+
+li a {
+display: block;
+color: grey;
+padding: 4px 13px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #550303;
+color: black;
+}

@@ -1,0 +1,21 @@
+/*"buttons" to get to the actual Last Friend App*/
+div{
+    width: 250px;
+    height: 35px;
+    background: #550303;
+    margin: 25px auto;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    font: 20px bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px; 
+}
+a:link{
+    background-color: transparent;
+    text-decoration: none;  /*Removes underline*/
+}
+a:hover{
+    color: black;
+}
