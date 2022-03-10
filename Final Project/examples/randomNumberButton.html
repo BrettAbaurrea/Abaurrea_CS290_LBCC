@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2>JavaScript Math</h2>
+
+        <p>Math.floor(Math.random() * 10) returns a random integer between 0 and 9 (both 
+        included):</p>
+
+        <p id="demo"></p>
+
+        <script>
+            var death = Math.floor(Math.random() * 10);
+            document.getElementById("demo").innerHTML = death;
+            if(death < 4){
+                window.alert("You die");
+            }
+            else{
+                window.alert("You Live");
+            }
+
+        </script>
+
+    </body>
+</html>
