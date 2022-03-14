@@ -1,0 +1,36 @@
+/*
+* CSS file for the "Meet The Team" Section
+*/
+
+/*3 columns side by side*/
+.column{
+    float: left;
+    width: 210px;
+    margin-bottom: 16px;
+    margin-top: 25px;
+    padding: 0 8px;
+}
+/*Display below on small screen*/
+@media screen and (max-width: 650px){
+    .column{
+        width: 25%;
+        display: block;
+    }
+}
+/*Add shadows*/
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0,2);
+}
+/*left & right padding*/
+.container{
+    padding: 0 16px;
+}
+/*Clear Float*/
+.container::after, .row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.title{
+    color: grey;
+}

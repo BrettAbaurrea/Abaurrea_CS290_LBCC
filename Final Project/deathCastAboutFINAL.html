@@ -9,6 +9,7 @@
         <title>About Death-Cast.com</title>
         <link rel="stylesheet" href="style/basicStyleDeathCast.css">
         <link rel="stylesheet" href="style/aboutUsStyle.css">
+        <link rel="stylesheet" href="style/meetTheTeamStyle.css">
     </head>
     <body>
         <h1>About Us!</h1>
@@ -42,36 +43,64 @@
                 <dd>Instead of deckers being paired with someone to spend their final days with, deckers are paired with a No Strings Attached hook-up partner</dd>
         </dl>
         <!--Put something outrageously capitalistic dystopian here? MAYBE AD FOR THE HUNGER GAMES???? or just ads in generaly-->
-        <img src="images/book cover.jpg" alt="Cover to the book 'They Both Die in the End' by Adam Silvera">
-        <!--Using a table to display images of the "meet the team"-->
-        <table class="team">
-            <tr>    <!--row 1-->
-                <!--The Founder-->
-                <td>
-                    <!--image goes here :)-->
-                    <h4>Founder!</h4>
-                </td>
-                <!--Last Friend App creator-->
-                <td>
-                    <!--image goes here:)-->
-                    <h4>Last Friend Creator</h4>
-                </td>
-                <!--Website Developer-->
-                <td>
-                    <!--Image of me goes here-->
-                    <h4>Chief Website Developer</h4>
-                </td>
-                <!--Website Editor-->
-                <td>
-                    <!--image of professor-->
-                    <h4>Chief Website Editor</h4>
-                </td>
-                <!--Chief Death-Cast Caller-->
-                <td>
-                    <!--image goes here-->
-                    <h4>Chief Death-Cast Operator</h4>
-                </td>
-            </tr>
-        </table>
+        <img class="cover" src="images/book cover.jpg" alt="Cover to the book 'They Both Die in the End' by Adam Silvera">
+        <!--"Meet The Team" Example from: https://www.w3schools.com/howto/howto_css_team.asp-->
+        <!--This is all person 1-->
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="images/founder.png" alt="Adam Silvera" style="width:100%">
+                    <div class="container">
+                        <h2>Adam Silvera</h2>
+                        <p class="title">CEO &amp; Founder</p>
+                        <p>the New York Times bestselling author of "They Both Die in the End"</p>
+                    </div>
+                </div>
+            </div>
+            <!--Person 2. notice they are also in div row-->
+            <div class="column">
+                <div class="card">
+                    <img src="images/webDeveloper.png" alt="Brett Abaurrea" style="width:100%">
+                    <div class="container">
+                        <h2>Brett Abaurrea</h2>
+                        <p class="title">Chief Web Designer</p>
+                        <p>the head developer of Death-Cast.com and all its affiliatees</p>
+                    </div>
+                </div>
+            </div>
+            <!--Person 3, notice again, also in div row-->
+            <div class="column">
+                <div class="card">
+                    <img src="images/webEditor.png" alt="Joseph Jess" style="width:100%">
+                    <div class="container">
+                        <h2>Joseph Jess</h2>
+                        <p class="title">Product Manager</p>
+                        <p>the guiding force and editor of Death-Cast.com</p>
+                    </div>
+                </div>
+            </div>
+            <!--Person 4, same div row-->
+            <div class="column">
+                <div class="card">
+                    <img src="images/lastfriendcreator (1).png" alt="Dalma Young" style="width:100%">
+                    <div class="container">
+                        <h2>Dalma Young</h2>
+                        <p class="title">Last Friends Founder</p>
+                        <p>the head software developer and founder for the Last Friend App</p>
+                    </div>
+                </div>
+            </div>
+            <!--Person 5, same div row-->
+            <div class="column">
+                <div class="card">
+                    <img src="images/deathCaller.png" alt="Andrea Donahue" style="width:100%">
+                    <div class="container">
+                        <h2>Andrea Donahue</h2>
+                        <p class="title">Lead Death Cast Caller</p>
+                        <p>the top caller at Death-Cast, giving hundreds of people a day, a chance to live their best last day</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
