@@ -1,5 +1,7 @@
 Thanks for an awesome term
 
+The best html to open first is deathCastPageFINAL.html thats the main homepage, although you can get to the home page from any of the other html documents
+
 Looking back at the sites I chose 
 Disneyplus:
   After learning what I know now about web design, I dont think this site is as bad as I originally said it was. I do still think it looks a bit cluttered but it makes sense why the developers designed it that way. It's not just random, it's organized by franchise (since Disney owns basically all of them). I do wish there was a bit more text elements and more spacing between thumbnails though, which knowing what I know now, wouldn't be too difficult of a fix
