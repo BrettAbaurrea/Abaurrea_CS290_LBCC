@@ -1,0 +1,38 @@
+.aboutSummary{
+    background-color: rgb(32, 0, 0);
+    position: relative;
+    left: 175px;
+    top: 20px;
+    height: 20%;
+    width: 70%;
+	margin: 25px;
+	padding: 15px;
+    border-radius: 45px;
+    font-size: 20px;
+}
+.definitions{
+    position: relative;
+    top: 30px;
+    width: 40%;
+	margin: 25px;
+	padding: 15px;
+    border-radius: 45px;
+
+    float: right;
+    display: inline;
+}
+.team{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    margin: 15px;
+}
+.cover{
+    height: 600px;
+    width: 450px; 
+    margin-top: 25px;
+    margin-left: 250px;
+
+    float: right;
+    display: inline;
+}

@@ -1,0 +1,39 @@
+/*Tables*/
+table, th, td{
+    border-collapse: collapse;
+    border: center;
+    border: 5px solid black;
+    margin: auto;
+    background-color: #550303;
+    width: 75%;
+    padding: 7px;
+    table-layout: fixed;
+
+}
+.permText{  /*Left side of table*/
+    color: black;
+    font-weight: bold;
+    background-color: #550303;
+}
+.tempText{  /*Right side of table, This is where users will input their info*/
+    color: grey;
+    text-align: center;
+    background-color: #550303;
+}
+/*When Shrink between 800-1000px turn Red*/
+/*Almost a "blink and you miss it sort of thing"*/
+@media only screen and (min-width: 1200px) {
+    *{
+        background-color:black;
+    }
+}
+@media only screen and (min-width:800px) and (max-width: 1000px) {
+    body {
+        background-color:#550303;
+    }
+}
+@media only screen and (max-width: 800px) {
+    body {
+        background-color:black;
+    }
+}    

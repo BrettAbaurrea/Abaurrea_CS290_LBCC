@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charsets="UTF-8">
+        <meta name="descriptopn" content="They Both Die in the End but make it buzzfeed">
+        <meta name="author" content="Brett T. Abaurrea">
+        <title>Welcome to Death-Cast.com</title>
+        <link rel="stylesheet" href="style/basicStyleDeathCast.css">    <!--Default page style-->
+        <link rel="stylesheet" href="style/homePageStyle.css">          <!--specific page style-->
+        <script src="script/homePageScript.js"></script>                <!--specific page script-->
+        <script src="script/randomNumberGenerator.js"></script>         <!--script to find a random number and "decide" if someone dies that day-->
+    </head>
+    <body>
+        <h1>Welcome to Death-Cast.com</h1>
+        <h2 class="sticky-position-top">We are so sorry to lose you...</h2>
+        <!--Nav Bar-->
+        <ul>
+            <li><a href="deathCastHomePageFINAL.html">Home</a></li>
+            <li><a href="deathCastAboutFINAL.html">About Us</a></li>
+            <li><a href="lastFriendPageFINAL.html">Last Friend App</a></li>
+        </ul>
+        <form name="Who Dies">
+            <input id="outputName" type="text" id="nameCheck" name="nameCheck" value="Enter Name Here.........." class="textBox"><br>
+            <label for="nameCheck">Who Else Got The Call..........................................................?&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</tab></label>
+            <input type="button" id="submit" value="Check" class="submitBox" onclick="Random();">
+        </form>
+
+        <!--Click Baity News Articles/Polls-->
+        <ol>
+            <li class="deadCeleb">Howie Maldonado (Actor)</li>    <!--Real character from the book-->
+            <li class="deadCeleb">Marisa Wood (Actress)</li>
+            <li class="deadCeleb">Alexis Texas (Pop-Singer)</li>
+            <li class="deadCeleb">Frankie Rider (Rapper)</li>
+            <li class="deadCeleb">Delilah Gray (Journalist)</li>  <!--Real Character from the book-->
+        </ol>
+        <ol>
+            <li class="deadCeleb">Emma Nelson-Mason (15)</li>
+            <li class="deadCeleb">Rufus Emeterio (17)</li>    <!--main character from the book-->
+            <li class="deadCeleb">Mateo Torrez (18)</li>  <!--main character from the book-->
+            <li class="deadCeleb">Lexie Grey (28)</li>
+            <li class="deadCeleb">Vin Pierce (47)</li>    <!--Real character from the book-->
+        </ol>
+
+        <!--Countdowners is a website full of livestreams of deckers doing crazy things on their last day alive-->
+        <table class="center">
+        <h3 style=text-align:center>TOP LIVE VIDEOS ON COUNTDOWNERS!!</h3>
+        <!--Using a table as a way to have captions under each video (and have the videos in line horizontally)-->
+            <tr>
+                <!--Sky diving video-->
+                <td>
+                    <iframe width="425" height="250" src="https://www.youtube.com/embed/ofLQA6Pn3xA?start=58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <figcaption style="font-size: medium;"><b>&nbsp;&nbsp;&nbsp;&nbsp;Florida Man Jumps out of Plane Midflight</b> &#128561;</figcaption>
+                </td>
+                <!--Scuba diving video-->
+                <td>
+                    <iframe float="center" width="425" height="250" src="https://www.youtube.com/embed/m8NgpKMZh_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <figcaption style="font-size: meduim;"><b>&nbsp;&nbsp;&nbsp;&nbsp;emotional last scuba dive... (We Cried!)</b> &#128557;&#128557;</figcaption>
+                </td>
+                <!--Mountain Biking Video-->
+                <td>
+                    <iframe width="425" height="250" src="https://www.youtube.com/embed/nfM9HGgQ4rs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <figcaption style="font-size: meduim;"><b>&nbsp;&nbsp;&nbsp;&nbsp;The BEST Trail for your Last Mountain Bike Ride</b> &#128693;</figcaption>
+                </td>
+            </tr>
+        </table>
+        <!--Using a table as a way to have captions under each image (and have the images in line horizontally)-->
+        <table class="center">
+            <h3 style=text-align:center>TOP IMAGES ON COUNTDOWNERS TODAY!</h3>
+            <tr>
+                <!--Last Supper Photo-->
+                <td>
+                    <img width="250" height="200" src="images/family dinner.jpg" alt="6 family members are gathered around a dinner table, smiling before eating food">  <!--I know this is an obvious stock photo but that's part of the camp-->
+                    <figcaption style="font-size: small;"><b>&nbsp;&nbsp;&nbsp;The Last Supper</b>&#128532;&#128124;</figcaption>
+                </td>
+                <!--Girl w/ Dog photo-->
+                <td>
+                    <img width="250" height="200" src="images/fido.jpg" alt="white woman kisses a dalmation on the head">
+                    <figcaption style="font-size: small;"><b>&nbsp;&nbsp;&nbsp;i think i'll miss fido most...</b>&#128054;&#128062;</figcaption>
+                </td>
+                <!--New Car Who Dis-->
+                <td>
+                    <img width="250" height="200" src="images/new Car.jpeg" alt="Man in sunglasses leans up against a silver Volkswagon Bug">
+                    <figcaption style="font-size: small;"><b>&nbsp;&nbsp;&nbsp;ONE FINAL TEST DRIVE</b>&#129322;&#128665;</figcaption>
+                </td>
+                <!--VR Space-->
+                <td>
+                    <img width="250" height="200" src="images/space.jpg" alt="Person wearing VR goggles is (pretend) floating in space">
+                    <figcaption style="font-size: small;"><b>&nbsp;&nbsp;&nbsp;Make-a-Moment Space Travel!</b></figcaption>
+                </td>
+                <!--Funeral-->
+                <td>
+                    <img width="250" height="200" src="images/decker funeral.jpg" alt="Group of people gather around a closed casket">
+                    <figcaption style="font-size: small;"><b>&nbsp;&nbsp;&nbsp;My Decker Funeral</b>&#128549;</figcaption>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
